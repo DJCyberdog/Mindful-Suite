@@ -22,18 +22,3 @@ export interface Sentence {
   themeTags: Array<'nightblue' | 'forestmoss' | 'sandruhe' | 'morningmist' | 'starlight'>;
   active: boolean;
 }
-
-export interface ModuleMeta {
-  title: string;
-  route: string;
-  teaser: string;
-}
-
-export interface PortalContent {
-  seo: { title: string; description: string };
-  hero: { kicker: string; title: string; lede: string; subline: string };
-  needs: Array<{ title: string; text: string; route: string }>;
-  themes: Array<{ name: string; key: ThemeName; text: string }>;
-  storyTeaser: { title: string; text: string; route: string };
-  trust: { title: string; text: string; items: string[] };
-}
