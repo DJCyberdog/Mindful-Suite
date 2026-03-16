@@ -1,37 +1,20 @@
 import './styles/base.css';
 import { createAmbientLayer, createShell, getShellStack } from './shared/layout';
-<<<<<<< HEAD
-import { loadQuickCalmDefaults, loadQuickCalmMeta, loadQuickCalmSequences, loadSentences, loadSoundscapes } from './shared/content';
-import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
-import { buildLegalFooter } from './shared/ui';
-import { speak, stopSpeaking } from './shared/tts';
-import { applySoundscape, stopSoundscape } from './shared/soundscape';
-=======
 import { loadQuickCalmDefaults, loadQuickCalmMeta, loadQuickCalmSequences, loadSentences } from './shared/content';
 import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
 import { buildLegalFooter } from './shared/ui';
 import { speak, stopSpeaking } from './shared/tts';
->>>>>>> main
 import { createGuidancePicker } from './shared/breathing/guidance';
 import type { QuickCalmSequence } from './shared/types';
 
 type SessionStatus = 'idle' | 'running' | 'completed';
 
 async function bootQuickCalm() {
-<<<<<<< HEAD
-  const [meta, defaults, sequences, sentences, soundscapes] = await Promise.all([
-    loadQuickCalmMeta(),
-    loadQuickCalmDefaults(),
-    loadQuickCalmSequences(),
-    loadSentences('quick-calm-guidance'),
-    loadSoundscapes()
-=======
   const [meta, defaults, sequences, sentences] = await Promise.all([
     loadQuickCalmMeta(),
     loadQuickCalmDefaults(),
     loadQuickCalmSequences(),
     loadSentences('quick-calm-guidance')
->>>>>>> main
   ]);
 
   const prefs = getPreferences();
@@ -135,11 +118,6 @@ async function bootQuickCalm() {
 
     const first = selected.steps[0];
     stepTitle.textContent = first.label;
-<<<<<<< HEAD
-    const sc = soundscapes.find((s) => s.id === getPreferences().selectedSoundscape);
-    applySoundscape(sc);
-=======
->>>>>>> main
     const line = picker(first.sentenceType);
     if (line) {
       guidance.textContent = line.textDe;
@@ -171,10 +149,6 @@ async function bootQuickCalm() {
     guidance.textContent = 'Kurze Sequenz für einen schnellen ruhigen Moment.';
     progress.textContent = `0 / ${selected.totalSeconds} Sekunden`;
     stopSpeaking();
-<<<<<<< HEAD
-    stopSoundscape();
-=======
->>>>>>> main
   };
 
   start.addEventListener('click', () => {

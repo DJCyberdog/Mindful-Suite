@@ -5,42 +5,24 @@ import {
   loadBodyScanMeta,
   loadBodyScanRegions,
   loadBodyScanSessions,
-<<<<<<< HEAD
-  loadSentences,
-  loadSoundscapes
-=======
   loadSentences
->>>>>>> main
 } from './shared/content';
 import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
 import { buildLegalFooter } from './shared/ui';
 import { createGuidancePicker } from './shared/breathing/guidance';
 import { speak, stopSpeaking } from './shared/tts';
-<<<<<<< HEAD
-import { applySoundscape, stopSoundscape } from './shared/soundscape';
-=======
->>>>>>> main
 import type { BodyScanRegion, BodyScanSession, SentenceType } from './shared/types';
 
 type ScanPhase = 'arrival' | 'settling' | 'awareness' | 'transition';
 interface ScanStep { phase: ScanPhase; region?: BodyScanRegion; durationSec: number }
 
 async function bootBodyScan() {
-<<<<<<< HEAD
-  const [meta, defaults, sessions, regions, sentences, soundscapes] = await Promise.all([
-=======
   const [meta, defaults, sessions, regions, sentences] = await Promise.all([
->>>>>>> main
     loadBodyScanMeta(),
     loadBodyScanDefaults(),
     loadBodyScanSessions(),
     loadBodyScanRegions(),
-<<<<<<< HEAD
-    loadSentences('bodyscan-guidance'),
-    loadSoundscapes()
-=======
     loadSentences('bodyscan-guidance')
->>>>>>> main
   ]);
 
   const prefs = getPreferences();
@@ -163,11 +145,6 @@ async function bootBodyScan() {
       guidance.textContent = settling.textDe;
       speak(settling.textDe);
     }
-<<<<<<< HEAD
-    const sc = soundscapes.find((s) => s.id === getPreferences().selectedSoundscape);
-    applySoundscape(sc);
-=======
->>>>>>> main
 
     enterStep(steps[0]);
     progress.textContent = `1 / ${steps.length} Impulse`;
@@ -193,10 +170,6 @@ async function bootBodyScan() {
     running = false;
     paused = false;
     stopSpeaking();
-<<<<<<< HEAD
-    stopSoundscape();
-=======
->>>>>>> main
     start.textContent = meta.primaryAction;
     pause.textContent = 'Pause';
     resetView();
