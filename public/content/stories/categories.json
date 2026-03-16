@@ -1,0 +1,27 @@
+[
+  {
+    "id": "natur",
+    "name": "Natur",
+    "description": "Landschaftliche Ruhe, weiche Weite, tragende Bilder aus Wald, Wiese und Himmel."
+  },
+  {
+    "id": "maerchenhaft",
+    "name": "Märchenhaft",
+    "description": "Sanft verzaubert, still, warm – ohne Drama und ohne Kitschlautstärke."
+  },
+  {
+    "id": "alltagsentrueckt",
+    "name": "Alltagsentrückt",
+    "description": "Vertraute Räume, leicht verschoben: ruhig, menschlich und unaufgeregt."
+  },
+  {
+    "id": "meditativ",
+    "name": "Meditativ",
+    "description": "Reduzierte Erzählbewegung, viel Atemraum und ein leiser innerer Fokus."
+  },
+  {
+    "id": "hoerbuchartig-ruhig",
+    "name": "Hörbuchartig-ruhig",
+    "description": "Getragene Erzähllinie mit klarem Anfang, ruhiger Mitte und sanftem Abschluss."
+  }
+]

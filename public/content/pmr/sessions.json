@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pmr_base_12",
+    "label": "Basis · ca. 12 Minuten",
+    "zoneOrder": ["haende_arme", "oberarme_schultern", "gesicht_kiefer", "brust_bauch", "beine_fuesse"],
+    "timing": {
+      "tenseSec": 6,
+      "holdSec": 4,
+      "releaseSec": 8,
+      "noticeSec": 12,
+      "transitionSec": 6
+    }
+  },
+  {
+    "id": "pmr_short_8",
+    "label": "Kurz · ca. 8 Minuten",
+    "zoneOrder": ["haende_arme", "gesicht_kiefer", "brust_bauch", "beine_fuesse"],
+    "timing": {
+      "tenseSec": 5,
+      "holdSec": 3,
+      "releaseSec": 7,
+      "noticeSec": 9,
+      "transitionSec": 5
+    }
+  }
+]

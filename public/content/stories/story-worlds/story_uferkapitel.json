@@ -1,0 +1,19 @@
+{
+  "id": "story_uferkapitel",
+  "slug": "das-ruhige-uferkapitel",
+  "title": "Das ruhige Uferkapitel",
+  "categoryId": "hoerbuchartig-ruhig",
+  "entryTitle": "Getragene Abendszene",
+  "entryDescription": "Ein vollständiges Uferkapitel in ruhigem Erzähltempo, bewusst für Hören und Lesen segmentiert.",
+  "endingNote": "Das Kapitel endet weich und geschlossen. Mehr braucht es für heute nicht.",
+  "segments": [
+    {"id":"s1","role":"intro","text":"Am Rand eines ruhigen Flusses beginnt dein Abendkapitel."},
+    {"id":"s2","role":"flow","text":"Das Wasser bewegt sich kaum sichtbar, als würde es den Tag ganz langsam ablegen."},
+    {"id":"s3","role":"flow","text":"Auf dem Steg steht eine Bank. Du setzt dich und hörst nur das leise Ufergeräusch."},
+    {"id":"s4","role":"flow","text":"Weiter flussaufwärts blinken wenige Lichter. Sie bleiben fern und sanft."},
+    {"id":"s5","role":"settling","text":"Du legst die Hände locker aufeinander und lässt den Atem kommen und gehen."},
+    {"id":"s6","role":"settling","text":"Mit jedem ruhigen Atemzug wird die Szene stiller, als würde sie dich einhüllen."},
+    {"id":"s7","role":"close","text":"Schließlich liegt der Fluss ruhig vor dir. Kein neuer Abschnitt drängt sich auf."},
+    {"id":"s8","role":"outro","text":"Du stehst langsam auf, nimmst die Uferruhe mit und schließt dieses Kapitel für heute vollständig ab."}
+  ]
+}

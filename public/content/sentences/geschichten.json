@@ -1,0 +1,41 @@
+[
+  {
+    "id": "story_hub_welcome_01",
+    "module": "geschichten",
+    "submodule": "hub",
+    "sentenceType": "welcome",
+    "targetArea": "entry",
+    "textDe": "Willkommen im Geschichtenraum. Wähle eine ruhige Welt, die dich heute weich begleitet.",
+    "directionEn": "Hub opening sentence.",
+    "tonality": "soft_intimate",
+    "lengthClass": "medium",
+    "themeTags": ["nightblue", "starlight"],
+    "active": true
+  },
+  {
+    "id": "story_hub_transition_01",
+    "module": "geschichten",
+    "submodule": "hub",
+    "sentenceType": "transition",
+    "targetArea": "category_selection",
+    "textDe": "Du kannst nach Stimmung wählen: Natur, Märchenhaft, Alltagsentrückt, Meditativ oder hörbuchartig-ruhig.",
+    "directionEn": "Category transition line.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "medium",
+    "themeTags": ["forestmoss", "sandruhe"],
+    "active": true
+  },
+  {
+    "id": "story_reader_close_01",
+    "module": "geschichten",
+    "submodule": "reader",
+    "sentenceType": "close",
+    "targetArea": "ending",
+    "textDe": "Die Geschichte ist vollständig erzählt. Du darfst in der Ruhe bleiben.",
+    "directionEn": "Story completion line.",
+    "tonality": "sleepy_gentle",
+    "lengthClass": "short",
+    "themeTags": ["nightblue", "morningmist"],
+    "active": true
+  }
+]

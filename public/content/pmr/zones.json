@@ -1,0 +1,27 @@
+[
+  {
+    "id": "haende_arme",
+    "label": "Hände und Unterarme",
+    "targetArea": "upper_body"
+  },
+  {
+    "id": "oberarme_schultern",
+    "label": "Oberarme und Schultern",
+    "targetArea": "upper_body"
+  },
+  {
+    "id": "gesicht_kiefer",
+    "label": "Gesicht und Kiefer",
+    "targetArea": "face"
+  },
+  {
+    "id": "brust_bauch",
+    "label": "Brust und Bauch",
+    "targetArea": "torso"
+  },
+  {
+    "id": "beine_fuesse",
+    "label": "Beine und Füße",
+    "targetArea": "lower_body"
+  }
+]

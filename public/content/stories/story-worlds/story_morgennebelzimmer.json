@@ -1,0 +1,19 @@
+{
+  "id": "story_morgennebelzimmer",
+  "slug": "ein-zimmer-voller-morgennebel",
+  "title": "Ein Zimmer voller Morgennebel",
+  "categoryId": "alltagsentrueckt",
+  "entryTitle": "Alltag, weich verschoben",
+  "entryDescription": "Ein vertrauter Raum atmet anders: heller, diffuser und ruhig genug für einen weichen Übergang.",
+  "endingNote": "Wenn du magst, nimm diese leichte Stille in deinen nächsten Atemzug mit.",
+  "segments": [
+    {"id":"s1","role":"intro","text":"Du kommst in ein Zimmer, das du kennst. Heute wirkt es weiter als sonst."},
+    {"id":"s2","role":"flow","text":"Vom Fenster aus zieht ein feiner Morgennebel herein, obwohl draußen noch Abend ist."},
+    {"id":"s3","role":"flow","text":"Die bekannten Dinge im Raum sind da, aber sie wirken weicher, als würden sie leiser sprechen."},
+    {"id":"s4","role":"flow","text":"Du setzt dich an den Tisch. Die Holzfläche fühlt sich warm und ruhig an."},
+    {"id":"s5","role":"settling","text":"Ein Glas Wasser steht bereit. Du nimmst einen kleinen Schluck und merkst, wie still alles geworden ist."},
+    {"id":"s6","role":"settling","text":"Nichts muss neu geordnet werden. Der Tag darf so enden, wie er ist."},
+    {"id":"s7","role":"close","text":"Der Nebel bleibt nur als feiner Schleier und macht den Raum freundlich und weit."},
+    {"id":"s8","role":"outro","text":"Dann legst du dich zurück. Das Zimmer trägt dich still weiter in die Nacht."}
+  ]
+}

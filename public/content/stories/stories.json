@@ -1,0 +1,62 @@
+[
+  {
+    "id": "story_waldpfad",
+    "slug": "waldpfad-der-abendruhe",
+    "title": "Waldpfad der Abendruhe",
+    "categoryId": "natur",
+    "world": "Abendpfad",
+    "kicker": "Natur",
+    "teaser": "Du gehst einen weichen Waldweg entlang, während der Tag ruhig ausatmet.",
+    "durationMin": 9,
+    "tone": "warm_held",
+    "themeHints": ["waldmoos", "nachtblau"]
+  },
+  {
+    "id": "story_sternenatelier",
+    "slug": "lichter-im-sternenatelier",
+    "title": "Lichter im Sternenatelier",
+    "categoryId": "maerchenhaft",
+    "world": "Sternenatelier",
+    "kicker": "Märchenhaft",
+    "teaser": "Eine leise Werkstatt aus Lichtfäden, in der jede Bewegung langsam und freundlich ist.",
+    "durationMin": 10,
+    "tone": "soft_poetic",
+    "themeHints": ["sternenhimmel", "nachtblau"]
+  },
+  {
+    "id": "story_morgennebelzimmer",
+    "slug": "ein-zimmer-voller-morgennebel",
+    "title": "Ein Zimmer voller Morgennebel",
+    "categoryId": "alltagsentrueckt",
+    "world": "Nebelzimmer",
+    "kicker": "Alltagsentrückt",
+    "teaser": "Ein vertrauter Raum wird stiller, heller und ein wenig weiter als sonst.",
+    "durationMin": 8,
+    "tone": "soft_intimate",
+    "themeHints": ["morgennebel", "sandruhe"]
+  },
+  {
+    "id": "story_stillefahrt",
+    "slug": "stille-fahrt-durch-die-vorstadt",
+    "title": "Stille Fahrt durch die Vorstadt",
+    "categoryId": "meditativ",
+    "world": "Nachtbahn",
+    "kicker": "Meditativ",
+    "teaser": "Eine langsame Abendfahrt, bei der die Gedanken mit jeder Haltestelle leichter werden.",
+    "durationMin": 11,
+    "tone": "quiet_focus",
+    "themeHints": ["nachtblau", "morgennebel"]
+  },
+  {
+    "id": "story_uferkapitel",
+    "slug": "das-ruhige-uferkapitel",
+    "title": "Das ruhige Uferkapitel",
+    "categoryId": "hoerbuchartig-ruhig",
+    "world": "Uferkapitel",
+    "kicker": "Hörbuchartig-ruhig",
+    "teaser": "Eine vollständige Abendszene am Wasser, getragen erzählt und weich abgeschlossen.",
+    "durationMin": 12,
+    "tone": "narrative_calm",
+    "themeHints": ["sandruhe", "sternenhimmel"]
+  }
+]

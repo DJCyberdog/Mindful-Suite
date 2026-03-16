@@ -1,0 +1,19 @@
+{
+  "id": "story_stillefahrt",
+  "slug": "stille-fahrt-durch-die-vorstadt",
+  "title": "Stille Fahrt durch die Vorstadt",
+  "categoryId": "meditativ",
+  "entryTitle": "Meditativer Erzählfluss",
+  "entryDescription": "Eine langsame Nachtfahrt mit klaren, wiederkehrenden Bildern und ruhigem innerem Takt.",
+  "endingNote": "Die Fahrt ist angekommen. Du kannst noch etwas in diesem ruhigen Takt bleiben.",
+  "segments": [
+    {"id":"s1","role":"intro","text":"Eine kleine Bahn rollt am Abend durch die Vorstadt, fast lautlos."},
+    {"id":"s2","role":"flow","text":"Du sitzt am Fenster. Die Lichter draußen ziehen langsam vorbei wie ruhige Gedanken."},
+    {"id":"s3","role":"flow","text":"An jeder Haltestelle öffnen sich die Türen für einen stillen Moment und schließen sich wieder weich."},
+    {"id":"s4","role":"flow","text":"Du zählst keine Stationen. Du bleibst nur bei der gleichmäßigen Bewegung."},
+    {"id":"s5","role":"settling","text":"Die Schultern sinken tiefer. Der Blick wird weich. Die Fahrt trägt dich weiter."},
+    {"id":"s6","role":"settling","text":"Draußen werden die Häuser ruhiger. Innen wird der Atem länger."},
+    {"id":"s7","role":"close","text":"Schließlich erreicht die Bahn den letzten ruhigen Bahnsteig. Kein Andrang, kein Drängen."},
+    {"id":"s8","role":"outro","text":"Du steigst langsam aus und nimmst die stille Bewegung mit. Für heute ist die Reise vollständig."}
+  ]
+}

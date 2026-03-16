@@ -1,0 +1,19 @@
+{
+  "id": "story_waldpfad",
+  "slug": "waldpfad-der-abendruhe",
+  "title": "Waldpfad der Abendruhe",
+  "categoryId": "natur",
+  "entryTitle": "Naturgeschichte zum ruhigen Ausatmen",
+  "entryDescription": "Ein sanfter Weg durch den Abendwald. Die Geschichte bleibt ruhig, erdend und endet vollständig ohne offene Spannung.",
+  "endingNote": "Bleib noch einen Moment bei der Waldruhe, bevor du zurückkehrst.",
+  "segments": [
+    {"id":"s1","role":"intro","text":"Du stehst am Rand eines Waldpfads, und der Abend wird langsam tiefer."},
+    {"id":"s2","role":"flow","text":"Der Boden unter deinen Schritten ist weich, als hätte der Tag dort schon eine Decke ausgelegt."},
+    {"id":"s3","role":"flow","text":"Zwischen den Stämmen liegt ein stilles Blau, und du musst nichts entscheiden außer dem nächsten ruhigen Schritt."},
+    {"id":"s4","role":"flow","text":"Ein Windzug streift die Blätter. Das Geräusch ist leise, gleichmäßig und freundlich."},
+    {"id":"s5","role":"settling","text":"Du gehst langsamer. Der Weg wird breiter und wirkt wie ein Ort, der dich schon kennt."},
+    {"id":"s6","role":"settling","text":"Weiter vorne öffnet sich eine kleine Lichtung. Dort ist genug Platz, einfach stehen zu bleiben."},
+    {"id":"s7","role":"close","text":"Du spürst den ruhigen Boden, den stillen Atem des Waldes und die weiche Schwere in deinen Schultern."},
+    {"id":"s8","role":"outro","text":"Dann setzt du dich auf den warmen Rand eines Baumstamms. Für heute ist der Weg gegangen. Alles darf ausklingen."}
+  ]
+}

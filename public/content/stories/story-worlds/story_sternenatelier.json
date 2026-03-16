@@ -1,0 +1,19 @@
+{
+  "id": "story_sternenatelier",
+  "slug": "lichter-im-sternenatelier",
+  "title": "Lichter im Sternenatelier",
+  "categoryId": "maerchenhaft",
+  "entryTitle": "Märchenhaft und sanft getragen",
+  "entryDescription": "Eine ruhige Werkstatt aus Lichtfäden über den Dächern der Nacht. Leise Magie ohne Aufregung.",
+  "endingNote": "Du kannst in der stillen Weite bleiben, bis der Schlaf von selbst näher kommt.",
+  "segments": [
+    {"id":"s1","role":"intro","text":"Über einer ruhigen Stadt liegt ein kleines Atelier, in dem Sterne repariert werden."},
+    {"id":"s2","role":"flow","text":"Die Tür öffnet sich ohne Geräusch, und ein warmes Licht fällt wie ein weicher Faden über den Boden."},
+    {"id":"s3","role":"flow","text":"Auf einem Tisch liegen kleine Lichter. Jedes glimmt in seinem eigenen, langsamen Takt."},
+    {"id":"s4","role":"flow","text":"Du setzt dich auf einen stillen Hocker. Niemand eilt. Niemand erwartet etwas von dir."},
+    {"id":"s5","role":"settling","text":"Eine freundliche Hand legt einen Stern in deine Nähe. Du hältst ihn nicht fest, du lässt ihn nur leuchten."},
+    {"id":"s6","role":"settling","text":"Das Licht wird ruhiger und wandert wie Atem durch den Raum."},
+    {"id":"s7","role":"close","text":"Am Ende hängt der Stern wieder über dem Fenster und strahlt leise in den Nachthimmel."},
+    {"id":"s8","role":"outro","text":"Du schließt die Augen einen Moment. Die Werkstatt bleibt da, still und vollständig, während du weicher wirst."}
+  ]
+}
