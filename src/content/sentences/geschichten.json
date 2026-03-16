@@ -1,0 +1,15 @@
+[
+  {
+    "id": "geschichten_welcome_01",
+    "module": "geschichten",
+    "submodule": "entry",
+    "sentenceType": "welcome",
+    "targetArea": "miniapp_start",
+    "textDe": "Du bist im Bereich geschichten. Diese Phase zeigt die ruhige Grundlage für spätere geführte Sessions.",
+    "directionEn": "Use as neutral placeholder guidance.",
+    "tonality": "calm_grounding",
+    "lengthClass": "medium",
+    "themeTags": ["nightblue", "morningmist"],
+    "active": true
+  }
+]
