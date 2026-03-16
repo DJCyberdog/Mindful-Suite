@@ -1,0 +1,42 @@
+{
+  "impressum": {
+    "title": "Impressum",
+    "description": "Rechtliche Anbieterkennzeichnung der Mindful Suite Portalebene.",
+    "intro": "Diese Seite bildet die rechtliche Basis für das gesamte Mindful-Suite-Ökosystem.",
+    "items": [
+      "Anbieter- und Kontaktangaben werden hier verbindlich gepflegt.",
+      "Die Informationen gelten für das Root-Portal und alle Mini-App-Unterordner.",
+      "Stand und Änderungen werden transparent dokumentiert."
+    ]
+  },
+  "datenschutz": {
+    "title": "Datenschutz",
+    "description": "Datenschutzhinweise für Mindful Suite inklusive lokaler Browser-Speicherung.",
+    "intro": "Mindful Suite funktioniert frontend-only und speichert Präferenzen lokal im Browser.",
+    "items": [
+      "Theme-, Motion- und TTS-Präferenzen werden lokal gespeichert.",
+      "Es gibt keine Konto- oder Datenbankpflicht für die Kernnutzung.",
+      "Detaillierte Hinweise zu optionalen Browserfunktionen werden hier fortlaufend ergänzt."
+    ]
+  },
+  "nutzungsbedingungen": {
+    "title": "Nutzungsbedingungen",
+    "description": "Nutzungsrahmen und transparente Erwartung für die Verwendung von Mindful Suite.",
+    "intro": "Diese Bedingungen geben einen ruhigen, klaren Rahmen für die Nutzung von Mindful Suite.",
+    "items": [
+      "Die Inhalte dienen der Entspannung und Runterregulation im Alltag.",
+      "Mindful Suite ist kostenlos und ohne Paywall-Mechanik nutzbar.",
+      "Der verbindliche Wortlaut wird in den nächsten Phasen juristisch finalisiert."
+    ]
+  },
+  "medizinischer-disclaimer": {
+    "title": "Medizinischer Disclaimer",
+    "description": "Hinweis: Mindful Suite ersetzt keine medizinische Diagnose oder Behandlung.",
+    "intro": "Mindful Suite ist eine unterstützende Entspannungsumgebung, kein medizinisches Produkt.",
+    "items": [
+      "Die Inhalte ersetzen keine ärztliche oder psychotherapeutische Behandlung.",
+      "Bei akuten Beschwerden nutze bitte professionelle medizinische Hilfe.",
+      "Der vollständige Hinweistext wird in einer späteren Phase redaktionell vertieft."
+    ]
+  }
+}
