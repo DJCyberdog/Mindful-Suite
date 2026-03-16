@@ -6,46 +6,14 @@ export interface Preferences {
   preferredVoice?: string;
   voiceVolume: number;
   ambientVolume: number;
-  ttsEnabled: boolean;
   lastEntry?: string;
-  lastBreathingPattern?: string;
-  lastBreathingCycles?: number;
-  lastQuickCalmSequence?: string;
-  lastSheepFlow?: string;
-  lastPmrSession?: string;
 }
-
-export type SentenceType =
-  | 'welcome'
-  | 'transition'
-  | 'guidance'
-  | 'closing'
-  | 'intro'
-  | 'preparation'
-  | 'inhale_cue'
-  | 'hold_cue'
-  | 'exhale_cue'
-  | 'reassurance'
-  | 'close'
-  | 'entry'
-  | 'start'
-  | 'grounding'
-  | 'orienting'
-  | 'count_anchor'
-  | 'sleepy_transition'
-  | 'drift_prompt'
-  | 'tense'
-  | 'hold'
-  | 'release'
-  | 'notice'
-  | 'outro'
-  | 'aftercare';
 
 export interface Sentence {
   id: string;
   module: string;
   submodule: string;
-  sentenceType: SentenceType;
+  sentenceType: 'welcome' | 'transition' | 'guidance' | 'closing';
   targetArea: string;
   textDe: string;
   directionEn: string;
@@ -53,116 +21,4 @@ export interface Sentence {
   lengthClass: 'short' | 'medium' | 'long';
   themeTags: Array<'nightblue' | 'forestmoss' | 'sandruhe' | 'morningmist' | 'starlight'>;
   active: boolean;
-}
-
-export interface ModuleMeta {
-  title: string;
-  route: string;
-  teaser: string;
-}
-
-export interface PortalContent {
-  seo: { title: string; description: string };
-  hero: { kicker: string; title: string; lede: string; subline: string };
-  needs: Array<{ title: string; text: string; route: string }>;
-  themes: Array<{ name: string; key: ThemeName; text: string }>;
-  storyTeaser: { title: string; text: string; route: string };
-  trust: { title: string; text: string; items: string[] };
-}
-
-export interface BreathingPattern {
-  id: string;
-  label: string;
-  inhale: number;
-  hold: number;
-  exhale: number;
-  cyclesDefault: number;
-  description: string;
-}
-
-export interface BreathingDefaults {
-  defaultPatternId: string;
-  defaultCycles: number;
-}
-
-export interface BreathingMeta {
-  title: string;
-  description: string;
-  sessionLabel: string;
-}
-
-export interface QuickCalmStep {
-  id: string;
-  label: string;
-  durationSec: number;
-  sentenceType: SentenceType;
-}
-
-export interface QuickCalmSequence {
-  id: string;
-  label: string;
-  totalSeconds: number;
-  steps: QuickCalmStep[];
-}
-
-export interface QuickCalmDefaults {
-  defaultSequenceId: string;
-}
-
-export interface QuickCalmMeta {
-  title: string;
-  description: string;
-  kicker: string;
-  primaryAction: string;
-}
-
-export interface SheepFlow {
-  id: string;
-  label: string;
-  targetCount: number;
-  cadenceMs: number;
-  ttsEvery: number;
-}
-
-export interface SheepDefaults {
-  defaultFlowId: string;
-}
-
-export interface SheepMeta {
-  title: string;
-  description: string;
-  kicker: string;
-  primaryAction: string;
-}
-
-export interface PmrZone {
-  id: string;
-  label: string;
-  targetArea: string;
-}
-
-export interface PmrSessionTiming {
-  tenseSec: number;
-  holdSec: number;
-  releaseSec: number;
-  noticeSec: number;
-  transitionSec: number;
-}
-
-export interface PmrSession {
-  id: string;
-  label: string;
-  zoneOrder: string[];
-  timing: PmrSessionTiming;
-}
-
-export interface PmrDefaults {
-  defaultSessionId: string;
-}
-
-export interface PmrMeta {
-  title: string;
-  description: string;
-  kicker: string;
-  primaryAction: string;
 }
