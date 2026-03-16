@@ -1,0 +1,6 @@
+[
+  {"id":"none","label":"Kein Soundscape","type":"none"},
+  {"id":"night_hush","label":"Nachtflimmern","type":"noise","color":"pink","lowpassHz":850,"gain":0.22},
+  {"id":"forest_soft","label":"Waldruhe","type":"noise","color":"brown","lowpassHz":620,"gain":0.2},
+  {"id":"mist_air","label":"Morgennebel","type":"noise","color":"white","lowpassHz":1100,"gain":0.16}
+]

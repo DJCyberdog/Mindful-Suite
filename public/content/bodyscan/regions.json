@@ -1,0 +1,8 @@
+[
+  { "id": "kopf", "label": "Kopf und Stirn", "targetArea": "head" },
+  { "id": "schultern", "label": "Nacken und Schultern", "targetArea": "upper_body" },
+  { "id": "brust", "label": "Brust und Herzraum", "targetArea": "torso" },
+  { "id": "bauch", "label": "Bauchraum", "targetArea": "torso" },
+  { "id": "becken", "label": "Becken und Hüften", "targetArea": "lower_body" },
+  { "id": "beine", "label": "Beine und Füße", "targetArea": "lower_body" }
+]

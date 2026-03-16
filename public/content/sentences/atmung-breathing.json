@@ -1,0 +1,258 @@
+[
+  {
+    "id": "atm_intro_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "intro",
+    "targetArea": "entry",
+    "textDe": "Willkommen im Atemraum. Wir gehen heute in einen ruhigen 4-7-8 Rhythmus.",
+    "directionEn": "Warm opening with steady confidence.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "medium",
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_intro_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "intro",
+    "targetArea": "entry",
+    "textDe": "Du brauchst nichts leisten. Wir folgen nur dem nächsten Atemzug.",
+    "directionEn": "Very gentle, reassuring tone.",
+    "tonality": "soft_intimate",
+    "lengthClass": "short",
+    "themeTags": [
+      "forestmoss",
+      "sandruhe"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_prep_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "preparation",
+    "targetArea": "pre_start",
+    "textDe": "Lass Schultern und Kiefer weich werden. Dann starten wir.",
+    "directionEn": "Preparation cue before first cycle.",
+    "tonality": "calm_grounding",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "morningmist"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_inhale_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "inhale_cue",
+    "targetArea": "phase",
+    "textDe": "Einatmen. Sanft und gleichmäßig.",
+    "directionEn": "Clear inhale cue.",
+    "tonality": "quiet_focus",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_inhale_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "inhale_cue",
+    "targetArea": "phase",
+    "textDe": "Nimm Luft auf. Ohne Hektik.",
+    "directionEn": "Alternative inhale line.",
+    "tonality": "calm_grounding",
+    "lengthClass": "short",
+    "themeTags": [
+      "sandruhe",
+      "morningmist"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_hold_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "hold_cue",
+    "targetArea": "phase",
+    "textDe": "Halte den Atem. Ganz ruhig.",
+    "directionEn": "Calm hold cue.",
+    "tonality": "quiet_focus",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_hold_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "hold_cue",
+    "targetArea": "phase",
+    "textDe": "Bleib noch einen Moment in der Stille.",
+    "directionEn": "Softer hold variation.",
+    "tonality": "poetic_light",
+    "lengthClass": "short",
+    "themeTags": [
+      "starlight",
+      "morningmist"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_exhale_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "exhale_cue",
+    "targetArea": "phase",
+    "textDe": "Lang ausatmen. Noch etwas länger.",
+    "directionEn": "Core exhale cue with emphasis on length.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "sandruhe"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_exhale_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "exhale_cue",
+    "targetArea": "phase",
+    "textDe": "Lass den Atem weich hinausgleiten.",
+    "directionEn": "Alternative exhale line.",
+    "tonality": "sleepy_gentle",
+    "lengthClass": "short",
+    "themeTags": [
+      "forestmoss",
+      "starlight"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_transition_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "transition",
+    "targetArea": "cycle_shift",
+    "textDe": "Sehr gut. Wir gehen in den nächsten Zyklus.",
+    "directionEn": "Cycle transition cue.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_reassure_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "reassurance",
+    "targetArea": "mid_session",
+    "textDe": "Wenn Gedanken auftauchen, kehr einfach zur Länge des Ausatmens zurück.",
+    "directionEn": "Gentle reassurance for mind wandering.",
+    "tonality": "calm_grounding",
+    "lengthClass": "medium",
+    "themeTags": [
+      "nightblue",
+      "morningmist"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_reassure_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "reassurance",
+    "targetArea": "mid_session",
+    "textDe": "Es reicht, den Rhythmus leise weiterzuführen.",
+    "directionEn": "Short reassuring fallback.",
+    "tonality": "soft_intimate",
+    "lengthClass": "short",
+    "themeTags": [
+      "sandruhe",
+      "starlight"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_close_01",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "close",
+    "targetArea": "ending",
+    "textDe": "Die Runde ist abgeschlossen. Bleib noch zwei ruhige Atemzüge bei dir.",
+    "directionEn": "Soft completion line.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "medium",
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_close_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "close",
+    "targetArea": "ending",
+    "textDe": "Gut gemacht. Nimm die Ruhe in den nächsten Moment mit.",
+    "directionEn": "Alternative closing line.",
+    "tonality": "soft_intimate",
+    "lengthClass": "short",
+    "themeTags": [
+      "forestmoss",
+      "morningmist"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_transition_02",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "transition",
+    "targetArea": "cycle_shift",
+    "textDe": "Wir bleiben im selben ruhigen Takt und gehen sanft weiter.",
+    "directionEn": "Additional transition variation.",
+    "tonality": "quiet_focus",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "morningmist"
+    ],
+    "active": true
+  },
+  {
+    "id": "atm_reassure_03",
+    "module": "atmung",
+    "submodule": "session",
+    "sentenceType": "reassurance",
+    "targetArea": "mid_session",
+    "textDe": "Der Rhythmus trägt dich. Du musst nur beim nächsten Ausatmen bleiben.",
+    "directionEn": "Additional reassurance.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "medium",
+    "themeTags": [
+      "forestmoss",
+      "starlight"
+    ],
+    "active": true
+  }
+]
