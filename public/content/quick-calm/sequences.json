@@ -1,0 +1,26 @@
+[
+  {
+    "id": "qc_90_reset",
+    "label": "90 Sekunden Reset",
+    "totalSeconds": 90,
+    "steps": [
+      { "id": "settle", "label": "Ankommen", "durationSec": 12, "sentenceType": "start" },
+      { "id": "ground", "label": "Boden spüren", "durationSec": 26, "sentenceType": "grounding" },
+      { "id": "orient", "label": "Raum orientieren", "durationSec": 24, "sentenceType": "orienting" },
+      { "id": "steady", "label": "Ruhig halten", "durationSec": 18, "sentenceType": "reassurance" },
+      { "id": "close", "label": "Abschluss", "durationSec": 10, "sentenceType": "close" }
+    ]
+  },
+  {
+    "id": "qc_150_soft",
+    "label": "2,5 Minuten Entlastung",
+    "totalSeconds": 150,
+    "steps": [
+      { "id": "settle", "label": "Ankommen", "durationSec": 16, "sentenceType": "start" },
+      { "id": "ground", "label": "Boden spüren", "durationSec": 44, "sentenceType": "grounding" },
+      { "id": "orient", "label": "Blick und Raum", "durationSec": 36, "sentenceType": "orienting" },
+      { "id": "steady", "label": "Ruhig halten", "durationSec": 34, "sentenceType": "reassurance" },
+      { "id": "close", "label": "Abschluss", "durationSec": 20, "sentenceType": "close" }
+    ]
+  }
+]
