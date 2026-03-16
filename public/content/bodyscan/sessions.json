@@ -1,0 +1,24 @@
+[
+  {
+    "id": "bodyscan_soft_10",
+    "label": "Sanft · ca. 10 Minuten",
+    "regionOrder": ["kopf", "schultern", "brust", "bauch", "becken", "beine"],
+    "timing": {
+      "arrivalSec": 8,
+      "settlingSec": 10,
+      "awarenessSec": 14,
+      "transitionSec": 6
+    }
+  },
+  {
+    "id": "bodyscan_drift_14",
+    "label": "Drift · ca. 14 Minuten",
+    "regionOrder": ["kopf", "schultern", "brust", "bauch", "becken", "beine"],
+    "timing": {
+      "arrivalSec": 10,
+      "settlingSec": 14,
+      "awarenessSec": 18,
+      "transitionSec": 8
+    }
+  }
+]
