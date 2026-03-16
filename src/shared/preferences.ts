@@ -6,14 +6,7 @@ const defaults: Preferences = {
   theme: 'nachtblau',
   reducedMotion: false,
   voiceVolume: 0.85,
-<<<<<<< HEAD
-  ambientVolume: 0.35,
-  ttsEnabled: true,
-  soundscapeEnabled: false,
-  selectedSoundscape: 'none'
-=======
   ambientVolume: 0.35
->>>>>>> main
 };
 
 export function getPreferences(): Preferences {
