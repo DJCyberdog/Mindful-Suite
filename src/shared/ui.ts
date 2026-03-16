@@ -1,5 +1,6 @@
 import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './preferences';
 import { discoverVoices, savePreferredVoice } from './tts';
+<<<<<<< HEAD
 import type { ModuleMeta, PortalContent, ThemeName } from './types';
 
 const THEME_PREVIEW: Record<ThemeName, string> = {
@@ -9,6 +10,8 @@ const THEME_PREVIEW: Record<ThemeName, string> = {
   morgennebel: 'radial-gradient(circle at 30% 20%, #6c83a1 0, transparent 50%), #1f2733',
   sternenhimmel: 'radial-gradient(circle at 30% 20%, #5660b2 0, transparent 50%), #080914'
 };
+=======
+>>>>>>> main
 
 export function buildHeader(title: string, text: string) {
   const card = document.createElement('section');
@@ -17,6 +20,7 @@ export function buildHeader(title: string, text: string) {
   return card;
 }
 
+<<<<<<< HEAD
 export function buildPortalHero(content: PortalContent['hero']) {
   const section = document.createElement('header');
   section.className = 'surface portal-hero stack';
@@ -136,6 +140,8 @@ export function buildTrustSection(trust: PortalContent['trust']) {
   return section;
 }
 
+=======
+>>>>>>> main
 export function buildThemeAndVoiceCard() {
   const prefs = getPreferences();
   const card = document.createElement('section');
@@ -150,10 +156,18 @@ export function buildThemeAndVoiceCard() {
     themeSelect.append(option);
   }
   themeSelect.addEventListener('change', () => {
+<<<<<<< HEAD
     const merged = savePreferences({ theme: themeSelect.value as ThemeName });
     applyTheme(merged.theme);
   });
 
+=======
+    const merged = savePreferences({ theme: themeSelect.value as typeof prefs.theme });
+    applyTheme(merged.theme);
+  });
+
+
+>>>>>>> main
   const motionToggle = document.createElement('input');
   motionToggle.type = 'checkbox';
   motionToggle.checked = prefs.reducedMotion;
@@ -162,6 +176,7 @@ export function buildThemeAndVoiceCard() {
     applyMotionPreference(merged.reducedMotion);
   });
 
+<<<<<<< HEAD
   const ttsToggle = document.createElement('input');
   ttsToggle.type = 'checkbox';
   ttsToggle.checked = prefs.ttsEnabled;
@@ -169,6 +184,8 @@ export function buildThemeAndVoiceCard() {
     savePreferences({ ttsEnabled: ttsToggle.checked });
   });
 
+=======
+>>>>>>> main
   const volume = document.createElement('input');
   volume.type = 'range';
   volume.min = '0';
@@ -179,6 +196,7 @@ export function buildThemeAndVoiceCard() {
     savePreferences({ voiceVolume: Number(volume.value) });
   });
 
+<<<<<<< HEAD
   const ambientToggle = document.createElement('input');
   ambientToggle.type = 'checkbox';
   ambientToggle.checked = prefs.soundscapeEnabled;
@@ -213,6 +231,8 @@ export function buildThemeAndVoiceCard() {
     savePreferences({ ambientVolume: Number(ambientVolume.value) });
   });
 
+=======
+>>>>>>> main
   const voiceSelect = document.createElement('select');
   for (const voice of discoverVoices().filter((entry) => entry.lang.toLowerCase().startsWith('de'))) {
     const option = document.createElement('option');
@@ -228,6 +248,7 @@ export function buildThemeAndVoiceCard() {
   card.append(
     Object.assign(document.createElement('h2'), { textContent: 'Deine ruhigen Grundeinstellungen' }),
     buildLabeledControl('Farbwelt', themeSelect),
+<<<<<<< HEAD
     buildLabeledControl('TTS aktiv', ttsToggle),
     buildLabeledControl('TTS-Stimme', voiceSelect),
     buildLabeledControl('Sprachlautstärke', volume),
@@ -235,6 +256,11 @@ export function buildThemeAndVoiceCard() {
     buildLabeledControl('Soundscape', ambientSelect),
     buildLabeledControl('Ambient-Lautstärke', ambientVolume),
     buildLabeledControl('Reduzierte Bewegung', motionToggle)
+=======
+    buildLabeledControl('TTS-Stimme', voiceSelect),
+    buildLabeledControl('Reduzierte Bewegung', motionToggle),
+    buildLabeledControl('Sprachlautstärke', volume)
+>>>>>>> main
   );
 
   return card;
@@ -248,6 +274,29 @@ function buildLabeledControl(labelText: string, control: HTMLElement) {
   return row;
 }
 
+<<<<<<< HEAD
+=======
+export function buildMiniAppGrid(items: Array<{ title: string; route: string; teaser: string }>) {
+  const section = document.createElement('section');
+  section.className = 'surface stack';
+  section.innerHTML = '<h2>Deine ruhigen Räume</h2><p>Jeder Bereich lebt in einem eigenen Unterordner und bleibt bewusst fokussiert.</p>';
+
+  const grid = document.createElement('div');
+  grid.className = 'grid mod-grid';
+
+  for (const item of items) {
+    const card = document.createElement('a');
+    card.href = item.route;
+    card.className = 'surface stack';
+    card.innerHTML = `<span class="kicker">${item.route}</span><h3>${item.title}</h3><p>${item.teaser}</p><span class="link-muted">Raum öffnen →</span>`;
+    grid.append(card);
+  }
+
+  section.append(grid);
+  return section;
+}
+
+>>>>>>> main
 export function buildLegalFooter() {
   const footer = document.createElement('footer');
   footer.className = 'row';

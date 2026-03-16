@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const CACHE_NAME = 'mindful-suite-v2';
+=======
+const CACHE_NAME = 'mindful-suite-v1';
+>>>>>>> main
 const CORE_ASSETS = ['/', '/manifest.webmanifest', '/icons/icon-192.svg', '/icons/icon-512.svg'];
 
 self.addEventListener('install', (event) => {
@@ -14,6 +18,7 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+<<<<<<< HEAD
   const request = event.request;
   if (request.method !== 'GET') return;
 
@@ -32,6 +37,20 @@ self.addEventListener('fetch', (event) => {
         .catch(() => cached ?? caches.match('/'));
 
       return cached ?? networkFetch;
+=======
+  if (event.request.method !== 'GET') return;
+
+  event.respondWith(
+    caches.match(event.request).then((cached) => {
+      if (cached) return cached;
+      return fetch(event.request)
+        .then((response) => {
+          const cloned = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, cloned));
+          return response;
+        })
+        .catch(() => caches.match('/'));
+>>>>>>> main
     })
   );
 });

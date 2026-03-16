@@ -12,7 +12,11 @@
   "needs": [
     {
       "title": "Ich will schnell runterkommen",
+<<<<<<< HEAD
       "text": "Ein sofort startbarer Ruhe-Flow mit minimalen Schritten und klarer Führung.",
+=======
+      "text": "Kurze, klare Begleitung bei innerer Unruhe oder zu viel Reiz.",
+>>>>>>> main
       "route": "/quick-calm/"
     },
     {

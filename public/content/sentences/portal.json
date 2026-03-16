@@ -9,10 +9,14 @@
     "directionEn": "Open warmly with a slow pacing and short pause after the first sentence.",
     "tonality": "soft_intimate",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -25,6 +29,7 @@
     "directionEn": "Guide toward choice without command tone.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "forestmoss",
       "sandruhe"
@@ -45,6 +50,9 @@
       "nightblue",
       "sandruhe"
     ],
+=======
+    "themeTags": ["forestmoss", "sandruhe"],
+>>>>>>> main
     "active": true
   }
 ]

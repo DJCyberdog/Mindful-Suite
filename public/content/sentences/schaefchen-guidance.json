@@ -9,10 +9,14 @@
     "directionEn": "Soft opening for ritual mode.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -25,10 +29,14 @@
     "directionEn": "Entry reassurance before counting starts.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "sandruhe",
       "forestmoss"
     ],
+=======
+    "themeTags": ["sandruhe", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -41,10 +49,14 @@
     "directionEn": "Counting anchor line with variable count.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -57,10 +69,14 @@
     "directionEn": "Alternative count anchor.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "forestmoss",
       "starlight"
     ],
+=======
+    "themeTags": ["forestmoss", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -73,10 +89,14 @@
     "directionEn": "Transition between counting chunks.",
     "tonality": "poetic_light",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "sandruhe"
     ],
+=======
+    "themeTags": ["nightblue", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -89,10 +109,14 @@
     "directionEn": "Middle reassurance.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -105,10 +129,14 @@
     "directionEn": "Drift prompt to sleep proximity.",
     "tonality": "poetic_light",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "starlight",
       "sandruhe"
     ],
+=======
+    "themeTags": ["starlight", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -121,10 +149,14 @@
     "directionEn": "Alternative drift line.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "forestmoss",
       "starlight"
     ],
+=======
+    "themeTags": ["forestmoss", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -137,6 +169,7 @@
     "directionEn": "Soft closing line.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
@@ -173,6 +206,9 @@
       "nightblue",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   }
 ]

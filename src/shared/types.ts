@@ -6,6 +6,7 @@ export interface Preferences {
   preferredVoice?: string;
   voiceVolume: number;
   ambientVolume: number;
+<<<<<<< HEAD
   ttsEnabled: boolean;
   lastEntry?: string;
   lastBreathingPattern?: string;
@@ -49,11 +50,20 @@ export type SentenceType =
   | 'awareness'
   | 'drifting_close';
 
+=======
+  lastEntry?: string;
+}
+
+>>>>>>> main
 export interface Sentence {
   id: string;
   module: string;
   submodule: string;
+<<<<<<< HEAD
   sentenceType: SentenceType;
+=======
+  sentenceType: 'welcome' | 'transition' | 'guidance' | 'closing';
+>>>>>>> main
   targetArea: string;
   textDe: string;
   directionEn: string;
@@ -62,6 +72,7 @@ export interface Sentence {
   themeTags: Array<'nightblue' | 'forestmoss' | 'sandruhe' | 'morningmist' | 'starlight'>;
   active: boolean;
 }
+<<<<<<< HEAD
 
 export interface ModuleMeta {
   title: string;
@@ -215,3 +226,5 @@ export interface SoundscapeDefinition {
   lowpassHz?: number;
   gain?: number;
 }
+=======
+>>>>>>> main

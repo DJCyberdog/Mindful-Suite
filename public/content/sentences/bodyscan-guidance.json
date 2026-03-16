@@ -9,10 +9,14 @@
     "directionEn": "Soft intro, low structure signalling.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -25,10 +29,14 @@
     "directionEn": "Arrival cue with region placeholder.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -41,10 +49,14 @@
     "directionEn": "Settling cue.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "sandruhe",
       "forestmoss"
     ],
+=======
+    "themeTags": ["sandruhe", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -57,10 +69,14 @@
     "directionEn": "Alternative settling line.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "starlight",
       "morningmist"
     ],
+=======
+    "themeTags": ["starlight", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -73,10 +89,14 @@
     "directionEn": "Awareness prompt with region placeholder.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "forestmoss"
     ],
+=======
+    "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -89,10 +109,14 @@
     "directionEn": "Alternative awareness line.",
     "tonality": "poetic_light",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "sandruhe",
       "starlight"
     ],
+=======
+    "themeTags": ["sandruhe", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -105,10 +129,14 @@
     "directionEn": "Fluid transition cue.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -121,10 +149,14 @@
     "directionEn": "Soft reassurance.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "forestmoss"
     ],
+=======
+    "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -137,10 +169,14 @@
     "directionEn": "Drifting close line.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "starlight",
       "morningmist"
     ],
+=======
+    "themeTags": ["starlight", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -153,6 +189,7 @@
     "directionEn": "Soft outro with gentle return.",
     "tonality": "soft_intimate",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "sandruhe"
@@ -189,6 +226,9 @@
       "forestmoss",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "sandruhe"],
+>>>>>>> main
     "active": true
   }
 ]

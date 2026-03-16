@@ -1,21 +1,35 @@
 import './styles/base.css';
 import { createAmbientLayer, createShell, getShellStack } from './shared/layout';
+<<<<<<< HEAD
 import { loadBreathingDefaults, loadBreathingMeta, loadBreathingPatterns, loadSentences, loadSoundscapes } from './shared/content';
 import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
 import { discoverVoices, savePreferredVoice, speak, stopSpeaking } from './shared/tts';
 import { applySoundscape, stopSoundscape } from './shared/soundscape';
+=======
+import { loadBreathingDefaults, loadBreathingMeta, loadBreathingPatterns, loadSentences } from './shared/content';
+import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
+import { discoverVoices, savePreferredVoice, speak, stopSpeaking } from './shared/tts';
+>>>>>>> main
 import { buildLegalFooter } from './shared/ui';
 import { BreathingEngine, type BreathPhase } from './shared/breathing/engine';
 import { createGuidancePicker } from './shared/breathing/guidance';
 import type { BreathingPattern, SentenceType, ThemeName } from './shared/types';
 
 async function bootAtmung() {
+<<<<<<< HEAD
   const [meta, patterns, defaults, sentences, soundscapes] = await Promise.all([
     loadBreathingMeta(),
     loadBreathingPatterns(),
     loadBreathingDefaults(),
     loadSentences('atmung-breathing'),
     loadSoundscapes()
+=======
+  const [meta, patterns, defaults, sentences] = await Promise.all([
+    loadBreathingMeta(),
+    loadBreathingPatterns(),
+    loadBreathingDefaults(),
+    loadSentences('atmung-breathing')
+>>>>>>> main
   ]);
 
   const prefs = getPreferences();
@@ -131,8 +145,11 @@ async function bootAtmung() {
       engine.setPattern(selectedPattern, selectedCycles);
       const text = `${intro?.textDe ?? ''} ${prep?.textDe ?? ''}`.trim();
       if (text) speak(text);
+<<<<<<< HEAD
       const sc = soundscapes.find((s) => s.id === getPreferences().selectedSoundscape);
       applySoundscape(sc);
+=======
+>>>>>>> main
       engine.start();
       primary.textContent = 'Pausieren';
       return;
@@ -151,7 +168,10 @@ async function bootAtmung() {
   stop.addEventListener('click', () => {
     engine.stop();
     stopSpeaking();
+<<<<<<< HEAD
     stopSoundscape();
+=======
+>>>>>>> main
     primary.textContent = 'Session starten';
     phaseText.textContent = `${selectedPattern.label} bereit`;
     subText.textContent = selectedPattern.description;

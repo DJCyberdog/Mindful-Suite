@@ -9,10 +9,14 @@
     "directionEn": "Warm opening with steady confidence.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -25,10 +29,14 @@
     "directionEn": "Very gentle, reassuring tone.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "forestmoss",
       "sandruhe"
     ],
+=======
+    "themeTags": ["forestmoss", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -41,10 +49,14 @@
     "directionEn": "Preparation cue before first cycle.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -57,10 +69,14 @@
     "directionEn": "Clear inhale cue.",
     "tonality": "quiet_focus",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -73,10 +89,14 @@
     "directionEn": "Alternative inhale line.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "sandruhe",
       "morningmist"
     ],
+=======
+    "themeTags": ["sandruhe", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -89,10 +109,14 @@
     "directionEn": "Calm hold cue.",
     "tonality": "quiet_focus",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "forestmoss"
     ],
+=======
+    "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -105,10 +129,14 @@
     "directionEn": "Softer hold variation.",
     "tonality": "poetic_light",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "starlight",
       "morningmist"
     ],
+=======
+    "themeTags": ["starlight", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -121,10 +149,14 @@
     "directionEn": "Core exhale cue with emphasis on length.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "sandruhe"
     ],
+=======
+    "themeTags": ["nightblue", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -137,10 +169,14 @@
     "directionEn": "Alternative exhale line.",
     "tonality": "sleepy_gentle",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "forestmoss",
       "starlight"
     ],
+=======
+    "themeTags": ["forestmoss", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -153,10 +189,14 @@
     "directionEn": "Cycle transition cue.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "forestmoss"
     ],
+=======
+    "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -169,10 +209,14 @@
     "directionEn": "Gentle reassurance for mind wandering.",
     "tonality": "calm_grounding",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "morningmist"
     ],
+=======
+    "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -185,10 +229,14 @@
     "directionEn": "Short reassuring fallback.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "sandruhe",
       "starlight"
     ],
+=======
+    "themeTags": ["sandruhe", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -201,10 +249,14 @@
     "directionEn": "Soft completion line.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
     "themeTags": [
       "nightblue",
       "starlight"
     ],
+=======
+    "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -217,6 +269,7 @@
     "directionEn": "Alternative closing line.",
     "tonality": "soft_intimate",
     "lengthClass": "short",
+<<<<<<< HEAD
     "themeTags": [
       "forestmoss",
       "morningmist"
@@ -253,6 +306,9 @@
       "forestmoss",
       "starlight"
     ],
+=======
+    "themeTags": ["forestmoss", "morningmist"],
+>>>>>>> main
     "active": true
   }
 ]

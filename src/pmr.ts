@@ -1,11 +1,18 @@
 import './styles/base.css';
 import { createAmbientLayer, createShell, getShellStack } from './shared/layout';
+<<<<<<< HEAD
 import { loadPmrDefaults, loadPmrMeta, loadPmrSessions, loadPmrZones, loadSentences, loadSoundscapes } from './shared/content';
+=======
+import { loadPmrDefaults, loadPmrMeta, loadPmrSessions, loadPmrZones, loadSentences } from './shared/content';
+>>>>>>> main
 import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
 import { buildLegalFooter } from './shared/ui';
 import { createGuidancePicker } from './shared/breathing/guidance';
 import { speak, stopSpeaking } from './shared/tts';
+<<<<<<< HEAD
 import { applySoundscape, stopSoundscape } from './shared/soundscape';
+=======
+>>>>>>> main
 import type { PmrSession, PmrZone, SentenceType } from './shared/types';
 
 type StepKey = 'tense' | 'hold' | 'release' | 'notice' | 'transition';
@@ -17,13 +24,21 @@ interface RuntimeStep {
 }
 
 async function bootPmr() {
+<<<<<<< HEAD
   const [meta, defaults, sessions, zones, sentences, soundscapes] = await Promise.all([
+=======
+  const [meta, defaults, sessions, zones, sentences] = await Promise.all([
+>>>>>>> main
     loadPmrMeta(),
     loadPmrDefaults(),
     loadPmrSessions(),
     loadPmrZones(),
+<<<<<<< HEAD
     loadSentences('pmr-guidance'),
     loadSoundscapes()
+=======
+    loadSentences('pmr-guidance')
+>>>>>>> main
   ]);
 
   const prefs = getPreferences();
@@ -151,8 +166,11 @@ async function bootPmr() {
       guidance.textContent = prep.textDe;
       speak(prep.textDe);
     }
+<<<<<<< HEAD
     const sc = soundscapes.find((s) => s.id === getPreferences().selectedSoundscape);
     applySoundscape(sc);
+=======
+>>>>>>> main
 
     enterStep(steps[0]);
     progress.textContent = `1 / ${steps.length} Schritte`;
@@ -180,7 +198,10 @@ async function bootPmr() {
     running = false;
     paused = false;
     stopSpeaking();
+<<<<<<< HEAD
     stopSoundscape();
+=======
+>>>>>>> main
     start.textContent = meta.primaryAction;
     pause.textContent = 'Pause';
     resetTexts();
