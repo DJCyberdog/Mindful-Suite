@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Atemraum",
+    "route": "/atmung/",
+    "teaser": "Ein sanfter Einstieg in langsame Atemrhythmen."
+  },
+  {
+    "title": "Quick Calm",
+    "route": "/quick-calm/",
+    "teaser": "Sofort starten, kurz stabilisieren, ohne komplexe Auswahl."
+  },
+  {
+    "title": "Schäfchen",
+    "route": "/schaefchen/",
+    "teaser": "Sanftes Nachtzählen mit ruhiger Wiederkehr und sleep-freundlicher Drift."
+  },
+  {
+    "title": "Progressive Muskelentspannung",
+    "route": "/pmr/",
+    "teaser": "Körperliche Entspannung in ruhigen Etappen."
+  },
+  {
+    "title": "Bodyscan",
+    "route": "/bodyscan/",
+    "teaser": "Aufmerksamkeit weich durch den Körper führen."
+  },
+  {
+    "title": "Autogenes Training",
+    "route": "/autogenes-training/",
+    "teaser": "Wärmende Formeln und tiefe Ruhe."
+  },
+  {
+    "title": "Fokus-Atmung",
+    "route": "/fokus-atmung/",
+    "teaser": "Zentrierte Atemführung für klare Präsenz."
+  },
+  {
+    "title": "Geschichten",
+    "route": "/geschichten/",
+    "teaser": "Ruhige Erzählräume als Einschlafbegleitung."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sheep_soft_30",
+    "label": "Ruhiges 30er Zählen",
+    "targetCount": 30,
+    "cadenceMs": 5000,
+    "ttsEvery": 2
+  },
+  {
+    "id": "sheep_deep_50",
+    "label": "Tiefer 50er Drift",
+    "targetCount": 50,
+    "cadenceMs": 5600,
+    "ttsEvery": 3
+  }
+]
