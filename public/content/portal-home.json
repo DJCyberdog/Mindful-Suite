@@ -1,0 +1,80 @@
+{
+  "seo": {
+    "title": "Mindful Suite · Ruhe finden, leichter abschalten",
+    "description": "Mindful Suite ist dein ruhiger Einstieg in Atmung, Quick Calm, Einschlafbegleitung und sanfte Abendroutinen – mobil, kostenlos, deutschsprachig."
+  },
+  "hero": {
+    "kicker": "Mindful Suite",
+    "title": "Ein stiller Einstieg in deinen Abend.",
+    "lede": "Mindful Suite bündelt ruhige Mini-Apps für Atemregulation, Entspannung und Einschlafnähe.",
+    "subline": "Du entscheidest nach Gefühl – nicht nach Komplexität."
+  },
+  "needs": [
+    {
+      "title": "Ich will schnell runterkommen",
+      "text": "Ein sofort startbarer Ruhe-Flow mit minimalen Schritten und klarer Führung.",
+      "route": "/quick-calm/"
+    },
+    {
+      "title": "Ich will ruhiger atmen",
+      "text": "Sanfte Atemräume, die Tempo und Nervensystem langsam senken.",
+      "route": "/atmung/"
+    },
+    {
+      "title": "Ich will leichter einschlafen",
+      "text": "Monotone, warme Übergänge in den Schlaf – ohne Leistungsdruck.",
+      "route": "/schaefchen/"
+    },
+    {
+      "title": "Ich möchte eine sanfte Abendbegleitung",
+      "text": "Ruhige Geschichten und körpernahe Entspannungsräume für den Tagesausklang.",
+      "route": "/geschichten/"
+    },
+    {
+      "title": "Ich brauche etwas Ruhiges ohne viel Auswahl",
+      "text": "Ein fokussierter Startpunkt mit wenig Entscheidung und klarer Richtung.",
+      "route": "/fokus-atmung/"
+    }
+  ],
+  "themes": [
+    {
+      "name": "Nachtblau",
+      "key": "nachtblau",
+      "text": "Tiefe, ruhige Nachtatmosphäre mit klarer Weite."
+    },
+    {
+      "name": "Waldmoos",
+      "key": "waldmoos",
+      "text": "Erdend, weich und nah am Gefühl von geschützter Stille."
+    },
+    {
+      "name": "Sandruhe",
+      "key": "sandruhe",
+      "text": "Wärmende Dunkelheit mit sanfter, trockener Leichtigkeit."
+    },
+    {
+      "name": "Morgennebel",
+      "key": "morgennebel",
+      "text": "Luftig und hellgedämpft für ein leichtes inneres Ausatmen."
+    },
+    {
+      "name": "Sternenhimmel",
+      "key": "sternenhimmel",
+      "text": "Kühl, leise und träumerisch – wie ein ruhiger Nachthorizont."
+    }
+  ],
+  "storyTeaser": {
+    "title": "Geschichten für den leisen Übergang",
+    "text": "Der Geschichtenraum begleitet dich mit kurzer, warmer Sprache in ein ruhigeres Tempo. Keine große Bibliothek – nur ein behutsamer Anfang.",
+    "route": "/geschichten/"
+  },
+  "trust": {
+    "title": "Vertrauen & Hinweise",
+    "text": "Mindful Suite ist ein kostenloses, frontend-only Produkt ohne Konto, ohne Tracking-Zwang und ohne Paywall.",
+    "items": [
+      "Alle Inhalte bleiben als statische Seiten direkt zugänglich.",
+      "Relevante Einstellungen werden lokal im Browser gespeichert.",
+      "Die Angebote ersetzen keine medizinische Behandlung."
+    ]
+  }
+}

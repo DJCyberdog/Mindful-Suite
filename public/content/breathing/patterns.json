@@ -1,0 +1,29 @@
+[
+  {
+    "id": "pattern-478",
+    "label": "4-7-8",
+    "inhale": 4,
+    "hold": 7,
+    "exhale": 8,
+    "cyclesDefault": 4,
+    "description": "Der klassische 4-7-8-Rhythmus für spürbar langsameres Ausatmen."
+  },
+  {
+    "id": "pattern-box-4444",
+    "label": "4-4-4-4",
+    "inhale": 4,
+    "hold": 4,
+    "exhale": 4,
+    "cyclesDefault": 5,
+    "description": "Ausgewogener Box-Rhythmus für ruhige Struktur und Fokus."
+  },
+  {
+    "id": "pattern-46",
+    "label": "4-6",
+    "inhale": 4,
+    "hold": 0,
+    "exhale": 6,
+    "cyclesDefault": 6,
+    "description": "Einfacher Rhythmus mit verlängertem Ausatmen und wenig Komplexität."
+  }
+]
