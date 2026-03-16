@@ -9,7 +9,14 @@
     "directionEn": "Warm structured intro.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+=======
     "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -22,7 +29,14 @@
     "directionEn": "Preparation before first zone.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "sandruhe",
+      "morningmist"
+    ],
+=======
     "themeTags": ["sandruhe", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -35,7 +49,14 @@
     "directionEn": "Tense cue with zone placeholder.",
     "tonality": "quiet_focus",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+=======
     "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -48,7 +69,14 @@
     "directionEn": "Alternative tense cue.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "forestmoss",
+      "sandruhe"
+    ],
+=======
     "themeTags": ["forestmoss", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -61,7 +89,14 @@
     "directionEn": "Hold cue.",
     "tonality": "quiet_focus",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "morningmist"
+    ],
+=======
     "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -74,7 +109,14 @@
     "directionEn": "Release cue with zone placeholder.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "sandruhe"
+    ],
+=======
     "themeTags": ["nightblue", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -87,7 +129,14 @@
     "directionEn": "Notice cue with zone placeholder.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "forestmoss",
+      "morningmist"
+    ],
+=======
     "themeTags": ["forestmoss", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -100,7 +149,14 @@
     "directionEn": "Transition between zones.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+=======
     "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -113,7 +169,14 @@
     "directionEn": "Mid-session reassurance.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
+    "themeTags": [
+      "sandruhe",
+      "starlight"
+    ],
+=======
     "themeTags": ["sandruhe", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -126,7 +189,14 @@
     "directionEn": "Session outro.",
     "tonality": "soft_intimate",
     "lengthClass": "medium",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+=======
     "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -139,7 +209,46 @@
     "directionEn": "Aftercare guidance.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "morningmist",
+      "starlight"
+    ],
+    "active": true
+  },
+  {
+    "id": "pmr_notice_02",
+    "module": "pmr",
+    "submodule": "zone",
+    "sentenceType": "notice",
+    "targetArea": "zone_action",
+    "textDe": "Nimm den Unterschied zwischen vorher und jetzt in {zone} wahr.",
+    "directionEn": "Additional notice cue.",
+    "tonality": "quiet_focus",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+    "active": true
+  },
+  {
+    "id": "pmr_aftercare_02",
+    "module": "pmr",
+    "submodule": "session",
+    "sentenceType": "aftercare",
+    "targetArea": "ending",
+    "textDe": "Wenn du aufstehen möchtest, mach das ruhig langsam und freundlich mit dir.",
+    "directionEn": "Additional aftercare.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "short",
+    "themeTags": [
+      "sandruhe",
+      "morningmist"
+    ],
+=======
     "themeTags": ["morningmist", "starlight"],
+>>>>>>> main
     "active": true
   }
 ]

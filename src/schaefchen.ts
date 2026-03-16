@@ -1,18 +1,35 @@
 import './styles/base.css';
 import { createAmbientLayer, createShell, getShellStack } from './shared/layout';
+<<<<<<< HEAD
+import { loadSentences, loadSheepDefaults, loadSheepFlows, loadSheepMeta, loadSoundscapes } from './shared/content';
+import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
+import { buildLegalFooter } from './shared/ui';
+import { speak, stopSpeaking } from './shared/tts';
+import { applySoundscape, stopSoundscape } from './shared/soundscape';
+=======
 import { loadSentences, loadSheepDefaults, loadSheepFlows, loadSheepMeta } from './shared/content';
 import { applyMotionPreference, applyTheme, getPreferences, savePreferences } from './shared/preferences';
 import { buildLegalFooter } from './shared/ui';
 import { speak, stopSpeaking } from './shared/tts';
+>>>>>>> main
 import { createGuidancePicker } from './shared/breathing/guidance';
 import type { SheepFlow } from './shared/types';
 
 async function bootSchaefchen() {
+<<<<<<< HEAD
+  const [meta, defaults, flows, sentences, soundscapes] = await Promise.all([
+    loadSheepMeta(),
+    loadSheepDefaults(),
+    loadSheepFlows(),
+    loadSentences('schaefchen-guidance'),
+    loadSoundscapes()
+=======
   const [meta, defaults, flows, sentences] = await Promise.all([
     loadSheepMeta(),
     loadSheepDefaults(),
     loadSheepFlows(),
     loadSentences('schaefchen-guidance')
+>>>>>>> main
   ]);
 
   const prefs = getPreferences();
@@ -123,6 +140,11 @@ async function bootSchaefchen() {
     lane.innerHTML = '';
     start.textContent = 'Ritual läuft…';
     guideText.textContent = pick('entry')?.textDe ?? 'Wir zählen ruhig weiter.';
+<<<<<<< HEAD
+    const sc = soundscapes.find((s) => s.id === getPreferences().selectedSoundscape);
+    applySoundscape(sc);
+=======
+>>>>>>> main
     speak(guideText.textContent);
     timer = window.setInterval(tick, selected.cadenceMs);
   };
@@ -143,6 +165,10 @@ async function bootSchaefchen() {
     const transition = pick('sleepy_transition');
     if (transition) guideText.textContent = transition.textDe;
     stopSpeaking();
+<<<<<<< HEAD
+    stopSoundscape();
+=======
+>>>>>>> main
   };
 
   start.addEventListener('click', () => {

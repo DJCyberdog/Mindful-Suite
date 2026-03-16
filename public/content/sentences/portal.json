@@ -9,7 +9,14 @@
     "directionEn": "Open warmly with a slow pacing and short pause after the first sentence.",
     "tonality": "soft_intimate",
     "lengthClass": "medium",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+=======
     "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -22,7 +29,30 @@
     "directionEn": "Guide toward choice without command tone.",
     "tonality": "warm_reassuring",
     "lengthClass": "medium",
+<<<<<<< HEAD
+    "themeTags": [
+      "forestmoss",
+      "sandruhe"
+    ],
+    "active": true
+  },
+  {
+    "id": "portal_transition_02",
+    "module": "portal",
+    "submodule": "hub",
+    "sentenceType": "transition",
+    "targetArea": "module_navigation",
+    "textDe": "Wenn du wenig Kraft hast, starte mit dem leichtesten nächsten Schritt.",
+    "directionEn": "Additional transition for need-based handoff.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "sandruhe"
+    ],
+=======
     "themeTags": ["forestmoss", "sandruhe"],
+>>>>>>> main
     "active": true
   }
 ]

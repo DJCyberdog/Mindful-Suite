@@ -24,9 +24,16 @@ export function pickGermanVoice() {
 }
 
 export function speak(text: string) {
+<<<<<<< HEAD
+  const prefs = getPreferences();
+  if (!prefs.ttsEnabled) return;
+  if (!('speechSynthesis' in window)) return;
+  const utterance = new SpeechSynthesisUtterance(text);
+=======
   if (!('speechSynthesis' in window)) return;
   const utterance = new SpeechSynthesisUtterance(text);
   const prefs = getPreferences();
+>>>>>>> main
   const voice = pickGermanVoice();
   utterance.voice = voice ?? null;
   utterance.rate = 0.96;
@@ -39,3 +46,10 @@ export function speak(text: string) {
 export function savePreferredVoice(name: string) {
   savePreferences({ preferredVoice: name });
 }
+<<<<<<< HEAD
+
+export function stopSpeaking() {
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+}
+=======
+>>>>>>> main

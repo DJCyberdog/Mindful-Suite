@@ -9,7 +9,14 @@
     "directionEn": "Very short immediate entry line.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+=======
     "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -22,7 +29,14 @@
     "directionEn": "Simple start cue without command harshness.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "sandruhe"
+    ],
+=======
     "themeTags": ["nightblue", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -35,7 +49,14 @@
     "directionEn": "Alternative short start.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "forestmoss",
+      "starlight"
+    ],
+=======
     "themeTags": ["forestmoss", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -48,7 +69,14 @@
     "directionEn": "Grounding body cue.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "forestmoss"
+    ],
+=======
     "themeTags": ["nightblue", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -61,7 +89,14 @@
     "directionEn": "Alternative grounding line.",
     "tonality": "quiet_focus",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "sandruhe",
+      "morningmist"
+    ],
+=======
     "themeTags": ["sandruhe", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -74,7 +109,14 @@
     "directionEn": "Orienting cue.",
     "tonality": "quiet_focus",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "morningmist"
+    ],
+=======
     "themeTags": ["nightblue", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -87,7 +129,14 @@
     "directionEn": "Alternative orienting micro-step.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "starlight",
+      "forestmoss"
+    ],
+=======
     "themeTags": ["starlight", "forestmoss"],
+>>>>>>> main
     "active": true
   },
   {
@@ -100,7 +149,14 @@
     "directionEn": "Reassuring line.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "sandruhe"
+    ],
+=======
     "themeTags": ["nightblue", "sandruhe"],
+>>>>>>> main
     "active": true
   },
   {
@@ -113,7 +169,14 @@
     "directionEn": "Short transition line between steps.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "forestmoss",
+      "morningmist"
+    ],
+=======
     "themeTags": ["forestmoss", "morningmist"],
+>>>>>>> main
     "active": true
   },
   {
@@ -126,7 +189,14 @@
     "directionEn": "Close line after sequence.",
     "tonality": "warm_reassuring",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "nightblue",
+      "starlight"
+    ],
+=======
     "themeTags": ["nightblue", "starlight"],
+>>>>>>> main
     "active": true
   },
   {
@@ -139,7 +209,46 @@
     "directionEn": "Alternative short close.",
     "tonality": "calm_grounding",
     "lengthClass": "short",
+<<<<<<< HEAD
+    "themeTags": [
+      "sandruhe",
+      "forestmoss"
+    ],
+    "active": true
+  },
+  {
+    "id": "qc_reassure_02",
+    "module": "quick-calm",
+    "submodule": "sequence",
+    "sentenceType": "reassurance",
+    "targetArea": "middle",
+    "textDe": "Nur dieser Moment zählt. Der Rest darf kurz warten.",
+    "directionEn": "Additional direct reassurance.",
+    "tonality": "calm_grounding",
+    "lengthClass": "short",
+    "themeTags": [
+      "nightblue",
+      "sandruhe"
+    ],
+    "active": true
+  },
+  {
+    "id": "qc_transition_02",
+    "module": "quick-calm",
+    "submodule": "sequence",
+    "sentenceType": "transition",
+    "targetArea": "step_change",
+    "textDe": "Ein kleiner Schritt weiter, ganz ohne Eile.",
+    "directionEn": "Additional transition.",
+    "tonality": "warm_reassuring",
+    "lengthClass": "short",
+    "themeTags": [
+      "forestmoss",
+      "morningmist"
+    ],
+=======
     "themeTags": ["sandruhe", "forestmoss"],
+>>>>>>> main
     "active": true
   }
 ]
